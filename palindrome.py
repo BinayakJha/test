@@ -10,6 +10,3 @@ def is_palindrome(word):
     word = word.replace(" ", "")
     return word == word[::-1]
 
-# Test the is_palindrome function
-print(is_palindrome("radar"))
-
